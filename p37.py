@@ -10,10 +10,8 @@ Notes:
 We should be able to use the Sieve of Atkin again to create a large number primes
 and then check them for the ability to truncate them. 
 '''
-
 import time
 import math
-
 
 def main():
 	t = time.clock()
