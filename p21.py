@@ -24,5 +24,5 @@ for i in range(len(values)):
 	#print "%d : %d" % (i+1, values[i])
 	if values[i] < 10001 and i+1 == values[values[i]-1] and not i+1 == values[i]:
 		sum += (i+1)
-print sum
-print "Time :", time.clock()-t
+print "Answer: %d" % sum
+print "Time Taken: %0.3f seconds" % (time.clock()-t)
